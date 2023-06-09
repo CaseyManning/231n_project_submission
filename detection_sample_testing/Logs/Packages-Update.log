@@ -1,0 +1,11 @@
+
+=== Wed Jun  7 22:15:44 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.5 to 2.0.7
+  com.unity.xr.arcore from version 4.0.9 to 4.0.12
+  com.unity.xr.arfoundation from version 4.0.9 to 4.0.12
+  com.unity.xr.arkit from version 4.0.9 to 4.0.12

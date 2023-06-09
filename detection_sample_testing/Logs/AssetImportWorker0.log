@@ -1,0 +1,800 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/caseymanning/Downloads/Unity_Detection2AR-main 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50811
+Successfully changed project path to: /Users/caseymanning/Downloads/Unity_Detection2AR-main 2
+/Users/caseymanning/Downloads/Unity_Detection2AR-main 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/caseymanning/Downloads/Unity_Detection2AR-main 2/Assets
+GfxDevice: creating device client; threaded=0
+2023-06-07 22:16:40.354 Unity[33722:969411] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2023-06-07 22:16:40.354 Unity[33722:969411] Metal devices available: 1
+2023-06-07 22:16:40.354 Unity[33722:969411] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2023-06-07 22:16:40.354 Unity[33722:969411] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56722
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005300 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.555 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  2.014 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.3 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 3.467390 ms (FindLiveObjects: 0.542855 ms CreateObjectMapping: 0.194225 ms MarkObjects: 2.517017 ms  DeleteObjects: 0.209628 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(0662f1f97c609457080285b544925446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0662f1f97c609457080285b544925446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ee80647a8638c98631078d24a17cb2') in 0.004742 seconds
+  Import took 0.007429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Scenes/Detect.unity
+  artifactKey: Guid(0ac926d5817d54df194262ddcc5326f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Detect.unity using Guid(0ac926d5817d54df194262ddcc5326f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9845e69faa877411da03f9fb7bc1d59') in 0.009381 seconds
+  Import took 0.012148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1483 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.0 MB.
+System memory in use after: 48.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 1.770407 ms (FindLiveObjects: 0.144813 ms CreateObjectMapping: 0.037759 ms MarkObjects: 1.493380 ms  DeleteObjects: 0.092652 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 18.3 MB.
+System memory in use after: 18.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 2.964969 ms (FindLiveObjects: 0.303730 ms CreateObjectMapping: 0.099812 ms MarkObjects: 2.427975 ms  DeleteObjects: 0.130937 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.3 MB.
+System memory in use after: 50.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 4.151292 ms (FindLiveObjects: 0.334103 ms CreateObjectMapping: 0.155706 ms MarkObjects: 3.513929 ms  DeleteObjects: 0.143748 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 20.6 MB.
+System memory in use after: 20.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 3.548995 ms (FindLiveObjects: 0.691752 ms CreateObjectMapping: 0.127149 ms MarkObjects: 2.597690 ms  DeleteObjects: 0.129473 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 20.4 MB.
+System memory in use after: 20.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 3.119468 ms (FindLiveObjects: 0.450493 ms CreateObjectMapping: 0.177537 ms MarkObjects: 2.396039 ms  DeleteObjects: 0.093208 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 20.3 MB.
+System memory in use after: 20.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.666255 ms (FindLiveObjects: 0.351217 ms CreateObjectMapping: 0.115228 ms MarkObjects: 2.080429 ms  DeleteObjects: 0.117196 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.2 MB.
+System memory in use after: 52.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 2.170175 ms (FindLiveObjects: 0.247352 ms CreateObjectMapping: 0.119113 ms MarkObjects: 1.708830 ms  DeleteObjects: 0.092749 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 22.5 MB.
+System memory in use after: 22.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 2.260393 ms (FindLiveObjects: 0.225745 ms CreateObjectMapping: 0.051729 ms MarkObjects: 1.861712 ms  DeleteObjects: 0.117035 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 22.3 MB.
+System memory in use after: 22.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 4.455000 ms (FindLiveObjects: 0.450555 ms CreateObjectMapping: 0.082639 ms MarkObjects: 3.789197 ms  DeleteObjects: 0.129957 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.3 MB.
+System memory in use after: 54.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.164015 ms (FindLiveObjects: 0.262973 ms CreateObjectMapping: 0.084152 ms MarkObjects: 1.721856 ms  DeleteObjects: 0.093136 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 24.5 MB.
+System memory in use after: 24.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 2.016795 ms (FindLiveObjects: 0.215395 ms CreateObjectMapping: 0.050556 ms MarkObjects: 1.660551 ms  DeleteObjects: 0.086997 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 24.4 MB.
+System memory in use after: 24.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1949.
+Total: 3.501552 ms (FindLiveObjects: 0.371795 ms CreateObjectMapping: 0.110104 ms MarkObjects: 2.899062 ms  DeleteObjects: 0.118151 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.253 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.3 MB.
+System memory in use after: 56.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.192493 ms (FindLiveObjects: 0.234526 ms CreateObjectMapping: 0.066630 ms MarkObjects: 1.809427 ms  DeleteObjects: 0.080759 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 26.6 MB.
+System memory in use after: 26.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 1.881651 ms (FindLiveObjects: 0.155083 ms CreateObjectMapping: 0.071581 ms MarkObjects: 1.536607 ms  DeleteObjects: 0.116869 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2139.396734 seconds.
+  path: Assets/tinyyolov2-8.onnx
+  artifactKey: Guid(e3dcd32286803484d8f0ee4bc3de4119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tinyyolov2-8.onnx using Guid(e3dcd32286803484d8f0ee4bc3de4119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98024f837c74a5f222995fb3f1e133f') in 1.202212 seconds
+  Import took 1.206491 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.3 MB.
+System memory in use after: 105.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.256501 ms (FindLiveObjects: 0.181697 ms CreateObjectMapping: 0.053358 ms MarkObjects: 1.936063 ms  DeleteObjects: 0.083216 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.1 MB.
+System memory in use after: 105.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 14.669380 ms (FindLiveObjects: 0.379492 ms CreateObjectMapping: 0.095190 ms MarkObjects: 14.098775 ms  DeleteObjects: 0.093562 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.0 MB.
+System memory in use after: 105.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.369724 ms (FindLiveObjects: 0.222092 ms CreateObjectMapping: 0.047472 ms MarkObjects: 2.013688 ms  DeleteObjects: 0.084983 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  3.069 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.115889 ms (FindLiveObjects: 0.231285 ms CreateObjectMapping: 0.060957 ms MarkObjects: 1.727728 ms  DeleteObjects: 0.094134 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 107.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.698184 ms (FindLiveObjects: 0.189602 ms CreateObjectMapping: 0.056586 ms MarkObjects: 2.335305 ms  DeleteObjects: 0.114265 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.1 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.196251 ms (FindLiveObjects: 0.299028 ms CreateObjectMapping: 0.087397 ms MarkObjects: 1.714263 ms  DeleteObjects: 0.093471 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1961.
+Total: 2.063307 ms (FindLiveObjects: 0.266201 ms CreateObjectMapping: 0.079263 ms MarkObjects: 1.548286 ms  DeleteObjects: 0.166778 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.3 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1961.
+Total: 2.125643 ms (FindLiveObjects: 0.267996 ms CreateObjectMapping: 0.051283 ms MarkObjects: 1.711802 ms  DeleteObjects: 0.092146 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.4 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1961.
+Total: 160.472395 ms (FindLiveObjects: 1.893272 ms CreateObjectMapping: 0.065943 ms MarkObjects: 157.823828 ms  DeleteObjects: 0.688008 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8912.016094 seconds.
+  path: Assets/Scripts/PhoneARCamera.cs
+  artifactKey: Guid(92f78a26596dc4161946c702f35b9b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PhoneARCamera.cs using Guid(92f78a26596dc4161946c702f35b9b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed7f1f0d06e9596b31aadb68f15b71d') in 0.581183 seconds
+  Import took 0.602222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.776 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.2 MB.
+System memory in use after: 220.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 1.963483 ms (FindLiveObjects: 0.161249 ms CreateObjectMapping: 0.043950 ms MarkObjects: 1.650440 ms  DeleteObjects: 0.106056 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 23.660334 seconds.
+  path: Assets/Scripts/PhoneARCamera.cs
+  artifactKey: Guid(92f78a26596dc4161946c702f35b9b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PhoneARCamera.cs using Guid(92f78a26596dc4161946c702f35b9b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f588c0a7e1af64b37512825d18c1dd07') in 0.004305 seconds
+  Import took 0.007777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.856240 seconds.
+  path: Assets/Models/yolov2-tiny-food-freeze.onnx
+  artifactKey: Guid(016586ec820c54c409f01ecabe1df1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yolov2-tiny-food-freeze.onnx using Guid(016586ec820c54c409f01ecabe1df1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abaf894af138c0885b403fe448afa72') in 0.275136 seconds
+  Import took 0.279453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Models/yolov3-tiny-416.onnx
+  artifactKey: Guid(885f42f35cce8544bb6e71e7079f0295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/yolov3-tiny-416.onnx using Guid(885f42f35cce8544bb6e71e7079f0295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f320e368b2ce980199b2edb5b7aab4c') in 0.080516 seconds
+  Import took 0.083844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013794 seconds.
+  path: Assets/Prefabs/AR Plane Debug Visualizer.prefab
+  artifactKey: Guid(c4e486de976fe5b458821f4f895780b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Plane Debug Visualizer.prefab using Guid(c4e486de976fe5b458821f4f895780b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed4a4ebb4492a9a8b2626de5ae88042') in 1.053057 seconds
+  Import took 1.056609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Prefabs/AR Point Cloud Debug Visualizer.prefab
+  artifactKey: Guid(3682a31e884ba23498b98aa13424b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Point Cloud Debug Visualizer.prefab using Guid(3682a31e884ba23498b98aa13424b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d17e89e1f2cb9313776f89e81cc4e2') in 0.017141 seconds
+  Import took 0.021309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Prefabs/DetectorTestPlane.prefab
+  artifactKey: Guid(5ea05c8affc774741915233a56ca6193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DetectorTestPlane.prefab using Guid(5ea05c8affc774741915233a56ca6193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb6c9edfcd65e248bb5ab0d2c5e879e') in 0.056663 seconds
+  Import took 0.062018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Prefabs/Text Anchor.prefab
+  artifactKey: Guid(2c1d34a0b201e4f8ea095f4a30d79d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Text Anchor.prefab using Guid(2c1d34a0b201e4f8ea095f4a30d79d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583455c650c24904dc413760181c617d') in 0.008377 seconds
+  Import took 0.013998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.645569 seconds.
+  path: Assets/Prefabs/AR Point Cloud Debug Visualizer.prefab
+  artifactKey: Guid(3682a31e884ba23498b98aa13424b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Point Cloud Debug Visualizer.prefab using Guid(3682a31e884ba23498b98aa13424b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf7fb9fd17afb91f71669417c01fc97') in 0.007012 seconds
+  Import took 0.011998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001523 seconds.
+  path: Assets/Prefabs/AR Point Cloud Debug Visualizer.prefab
+  artifactKey: Guid(3682a31e884ba23498b98aa13424b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Point Cloud Debug Visualizer.prefab using Guid(3682a31e884ba23498b98aa13424b070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf7fb9fd17afb91f71669417c01fc97') in 0.008339 seconds
+  Import took 0.013246 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 271.8 MB.
+System memory in use after: 271.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 2.987045 ms (FindLiveObjects: 0.196518 ms CreateObjectMapping: 0.043945 ms MarkObjects: 2.656545 ms  DeleteObjects: 0.087931 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12601.599285 seconds.
+  path: Assets/Models
+  artifactKey: Guid(be6ea49d92ab84e08ad8f9db5112eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(be6ea49d92ab84e08ad8f9db5112eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce04852c2f2ee5743383b927df638b2') in 0.012581 seconds
+  Import took 0.126388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.762573 seconds.
+  path: Assets/Models/coco.txt
+  artifactKey: Guid(c88409e946cdfce4d856d1577eee644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/coco.txt using Guid(c88409e946cdfce4d856d1577eee644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c4252efe872290121594ec217f6646') in 2.232125 seconds
+  Import took 2.236347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 382.3 MB.
+System memory in use after: 382.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 3.482923 ms (FindLiveObjects: 0.529718 ms CreateObjectMapping: 0.127254 ms MarkObjects: 2.620697 ms  DeleteObjects: 0.203034 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 352.6 MB.
+System memory in use after: 352.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 2.972011 ms (FindLiveObjects: 0.413276 ms CreateObjectMapping: 0.136413 ms MarkObjects: 2.321696 ms  DeleteObjects: 0.098166 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 384.5 MB.
+System memory in use after: 384.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 2.247373 ms (FindLiveObjects: 0.317354 ms CreateObjectMapping: 0.059440 ms MarkObjects: 1.778480 ms  DeleteObjects: 0.090129 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 386.8 MB.
+System memory in use after: 386.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 1.930920 ms (FindLiveObjects: 0.178144 ms CreateObjectMapping: 0.060387 ms MarkObjects: 1.596702 ms  DeleteObjects: 0.087251 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.1 MB.
+System memory in use after: 357.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 2.093631 ms (FindLiveObjects: 0.308249 ms CreateObjectMapping: 0.053778 ms MarkObjects: 1.637649 ms  DeleteObjects: 0.090867 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 389.0 MB.
+System memory in use after: 389.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 3.214004 ms (FindLiveObjects: 0.289817 ms CreateObjectMapping: 0.155159 ms MarkObjects: 2.556218 ms  DeleteObjects: 0.209693 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 359.3 MB.
+System memory in use after: 359.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.453520 ms (FindLiveObjects: 0.367379 ms CreateObjectMapping: 0.061905 ms MarkObjects: 1.872899 ms  DeleteObjects: 0.148916 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Frameworks/Mono/lib/libPackages/com.needle.xr.arsimulation/Runtime/Plugins/osx/x64/libARSimulationPlugin.dylib.bundle
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 391.2 MB.
+System memory in use after: 391.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.408975 ms (FindLiveObjects: 0.251995 ms CreateObjectMapping: 0.050771 ms MarkObjects: 2.008985 ms  DeleteObjects: 0.095705 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 361.5 MB.
+System memory in use after: 361.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.051394 ms (FindLiveObjects: 0.226576 ms CreateObjectMapping: 0.055224 ms MarkObjects: 1.678945 ms  DeleteObjects: 0.088428 ms)
+

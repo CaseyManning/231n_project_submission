@@ -1,0 +1,56 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_outer"} },
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
+{ "pid": "il2cpp_outer", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1686275642287000,"dur": 188000, "ph":"X", "name": "il2cpp.exe"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 1686275642292000,"dur": 176000, "ph":"X", "name": "BeeDriverRunner.Execute"},
+{ "pid": "BeeDriver", "ph":"M", "name": "process_name", "args": {"name": "BeeDriver"} },
+{ "pid": "BeeDriver", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -2} },
+{ "pid": "BeeDriver", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "BeeDriver", "tid": 1,"ts": 1686275642352000,"dur": 0, "ph":"X", "name": "Build FinalProgram"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 1686275642353000,"dur": 12000, "ph":"X", "name": "WriteBuildProgramData"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 1686275642365000,"dur": 93000, "ph":"X", "name": "Run Backend"},
+{ "pid": "BeeDriver", "tid": 1,"ts": 1686275642458000,"dur": 1000, "ph":"X", "name": "Finish"},
+{ "cat":"", "pid":"bee_backend", "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642390117, "dur":19580, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642409697, "dur":2420, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642412162, "dur":671, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642412841, "dur":1, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642412842, "dur":239, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642434376, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642434761, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642434967, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435093, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435167, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435239, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435315, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435388, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435471, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642435476, "dur":1245, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":"bee_backend", "tid":1, "ts":1686275642412911, "dur":21475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1686275642412924, "dur":181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1686275642413113, "dur":11576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen /Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/buildstate/artifacts/il2cpp_conv_7pzl.traceevents" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1686275642424690, "dur":1258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1686275642434354, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"FinalProgram" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1686275642434356, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":2, "ts":1686275642434363, "dur":97, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":3, "ts":1686275642412933, "dur":21536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":4, "ts":1686275642413076, "dur":21372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":5, "ts":1686275642413118, "dur":21333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":6, "ts":1686275642413129, "dur":21327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":7, "ts":1686275642413138, "dur":21326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":8, "ts":1686275642413133, "dur":21329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":"bee_backend", "tid":0, "ts":1686275642439133, "dur":181, "ph":"X", "name": "ProfilerWriteOutput" }
+,{}
+
+],
+"meta_datetime": "06/08/2023 18:54:02",
+"meta_command_line": "/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/il2cpp/build/deploy/il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --generics-option=EnableFullSharing --dotnetprofile=unityaot-macos --cachedirectory=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS --additional-cpp=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --directory=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/il2cppStats --convert-in-graph",
+"meta_command_line_args": "/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/il2cpp/build/deploy/il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --generics-option=EnableFullSharing --dotnetprofile=unityaot-macos --cachedirectory=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS --additional-cpp=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --directory=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=/Users/caseymanning/Documents/HoloTest/Milestone_Huge/Library/Il2cppBuildCache/iOS/il2cppStats --convert-in-graph",
+"meta_user_name": "caseymanning",
+"meta_os_version": "Unix 11.0.0",
+"meta_cpu_count": "8"
+}
